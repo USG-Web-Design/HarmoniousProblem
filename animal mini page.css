@@ -1,0 +1,33 @@
+body{
+	font-family: Times New Romans;
+	color: darkgray;
+	background-color: #f0ece8;
+	font-size: 23px;
+}
+
+p{
+	font-size: 23px;
+	color:#C4BDAC;
+
+}
+
+.intro{
+	font-size:28px;
+	font-weight: 600;
+	text-align: center;
+}
+.Breed{
+	color:#3A3B3C;
+}
+.Food{
+color:#3A3B3C;
+
+}
+.Play{
+color:#3A3B3C;
+}
+
+footer{
+	font-size: 15px;
+	color: gray;
+}
