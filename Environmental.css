@@ -1,0 +1,73 @@
+
+body{
+	background-color:#5F9EA0;
+	color: #FFFAF0;
+}
+.title{
+	color:#2F4F4F ;
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 25px;
+}
+
+.intro{
+	text-align: center;
+}
+.fact{
+color:#E0FFFF;
+font-family: Times New Roman;
+}
+
+.threats{
+color: #F0FFF0;
+font-family: Georgia;
+}
+
+.why{
+color:#FFF0F5;
+font-family: Garamond;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: #8FBC8F;
+}
+
+li a:hover {
+	color: blanchedalmond;
+}
+
+li {
+	margin: 0;
+	padding: 10px;
+	background-color: #FFFAF0;
+	font-size: 24px;
+}
+
+li:hover {
+	background-color: #8FBC8F;
+}
+
+.dropdown-content{
+	display: none;
+}
+
+p{
+	font-size: 20px;
+}
+
+.dropdown-content {
+	display: none;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
