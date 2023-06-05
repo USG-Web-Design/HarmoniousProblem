@@ -1,0 +1,82 @@
+
+
+/* This set the color of whole webpage */
+body{
+	background-color:#5F9EA0;
+	color: #FFFAF0;
+}
+
+/* This set the color, font size, font, etc of the content inside class called title */
+.title{
+	color:#2F4F4F ;
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.intro{
+	text-align: center;
+}
+
+/* This set the color and font of the content inside class called fact */
+.fact{
+color:#E0FFFF;
+font-family: Times New Roman;
+}
+
+/* This set the color and font of the content inside class called threats */
+.threats{
+color: #F0FFF0;
+font-family: Georgia;
+}
+
+/* This set the color and font of the content inside class called why*/
+.why{
+color:#FFF0F5;
+font-family: Garamond;
+}
+
+ul {
+	list-style-type: none; /* This property removes the default bullet points */
+	margin: 0;
+	padding: 0;
+}
+
+li a {
+	display: block;
+	text-decoration: none; /* Removes the underline decoration */
+	color: #8FBC8F;
+}
+
+/*when hovered over by the user and changes the text color to blanchedalmond */
+li a:hover {
+	color: blanchedalmond;
+}
+
+li {
+	margin: 0;
+	padding: 10px;
+	background-color: #FFFAF0;
+	font-size: 24px;
+}
+
+li:hover {
+	background-color: #8FBC8F;
+}
+
+/*making the dropdown content hidden by default. */
+.dropdown-content{
+	display: none; 
+}
+
+
+/*when the parent element with the class dropdown is hovered over. 
+This makes the dropdown content visible when the user hovers over the dropdown menu item. */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+p{
+	font-size: 20px;
+}
+

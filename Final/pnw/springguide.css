@@ -1,0 +1,284 @@
+div.mainpage p {
+    text-align: left;
+    font-size: 18px;
+    /* Styles for paragraphs within the 'mainpage' div */
+}
+
+div.mainpage nav {
+    overflow: hidden;
+    /* Styles for the navigation within the 'mainpage' div */
+}
+
+div.mainpage nav li {
+    list-style-type: none;
+    float: left;
+    /* Styles for list items within the navigation */
+}
+
+div.sushipic {
+    height: 400px;
+    width: 500px;
+    /* Width and Height for an element with class 'sushipic' */
+}
+
+div.mainpage nav a {
+    font-size: 16px;
+    display: block;
+    text-decoration: none; /*Underlines in the a tag can be hidden by specifying 'none'.*/
+    color: #f9f9f9;
+    margin: 0px 0px 0px;
+    transition: 0.3s;/* The longness of showing the trasition when you hover the nav tag*/
+    /* Styles for links within the navigation */
+}
+
+div.mainpage nav a:hover {
+    border-bottom: 3px solid #f9f9f9;
+    /* Styles for the hover effect on links within the navigation */
+}
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    background: #bbbbbb;
+    padding: 0px 0px;
+    font-family: serif;
+
+}
+
+#header h1 {
+    float: left;
+    color: #ffffff;
+    margin-right: 80px;
+    
+}
+
+body {
+    background-color: #d0d9e8;
+    color: #fffcf7;
+    /* Styles for the body */
+}
+
+img {
+    padding: 10px 10px;
+    margin: 25px;
+    /* Styles for all images */
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* Set the position of the dropdown container as relative and make it an inline block element */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    /* the styles for the dropdown content */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    /* Display the dropdown content when hovering over the dropdown container */
+}
+
+p {
+    font-size: 20px;
+   
+}
+
+div.dropdown.dropdown-content {
+    display: none;
+    /* Hide the dropdown content within a dropdown container */
+}
+
+div.dropdown1 li:hover {
+    background-color: #41186E;
+    /* Change the background color of list items within a dropdown container when hovering over them */
+}
+
+div.dropdown1.dropdown-content {
+    display: none;
+    /* Hide the dropdown content within a different dropdown container */
+}
+
+
+
+.iframe{
+margin: 100px;
+}
+
+
+.box1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;
+    background: #FFF;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+    width: 550px;
+    /*the styles for a box container with a bold font, blue color, white background, and rounded border */
+}
+
+.box1 p {
+    margin: 0; 
+    padding: 0;
+    /* Reset margin and padding for paragraphs inside the box container */
+}
+
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #6898C2;
+    border: dashed 2px #f0f7ff;
+    width: 900px;
+    margin: auto;
+    /* the styles for a second box container with padding, margin, a different background, and a dashed border */
+}
+
+.box2 p {
+    margin: 0; 
+    padding: 0;
+    
+}
+
+
+
+div.animation {
+  height: 400px;
+  width: 800px;
+  display: block;
+  margin: 45px;
+  padding: 45px;
+  margin-left: 270px;
+  background-image:url("glassmuseum.jpeg");
+  position: relative;
+  transition: background-image 4s;
+  animation-name: example2;
+  animation-timing-function: linear; /* the animation progresses at a constant speed from start to end. */
+  animation-duration: 4s; /* the duration of the animation as 4 seconds. */
+  animation-iteration-count: 4; /*repeat 4 times.*/
+  animation-delay: 2s; /*delay of 2 seconds before the animation starts. */
+  /* The styles for an animated container with a background image */
+}
+
+div.animation:hover {
+  background-image: url("glassmuseum2.jpeg");
+  /* Change the background image on hover to a different image */
+}
+
+div.animation:hover {
+    background-image: url("glassmuseum3.jpeg");
+    /* Change the background image again on hover */
+}
+
+div.animation @keyframes example2 {
+  50% {background-image: 14px; top: 0px; left: 0px;}
+  100% {background-image: 20px; top: 0px; left: 0px;}
+  150% {background-image: 14px; top: 0px; left: 0px;}
+  /* Define keyframes for the animation, specifying changes in the background image, top, and left properties */
+}
+
+
+   /* Styles for image within the 'space' div */
+img.space{
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+}
+
+   /* Styles within the 'p_space' div */
+div.p_space{
+padding: 100px;
+    font-size: 30px;
+     text-align:center;
+  line-height:58px;
+  justify-content: center;
+
+}
+
+   /* Styles within the 'mueseumweb' div */
+div.museumweb{
+    background-color: #80AE8C;
+}
+
+body.museumweb{
+    background-color: #87A58F;
+
+}
+
+   /* Styles for content within the 'centertitle' div */
+div.centertitle{
+    text-align: center;
+}
+
+/* It's the same thing as I just commented */
+.animation{
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 3.5s;
+  width: 130px;
+}
+
+.keyframe2{
+  animation-name: anim_h;
+}
+
+@keyframes anim_h {
+  0% {
+    transform: translate(0px, 0);
+  }
+  100% {
+    transform: translate(800px, 0);
+  }
+}
+
+body.foodweb{
+    background-color: #ECE6CA;
+     margin: 20px;
+  padding: 0;
+}
+
+div.fontcolor{
+    color:#BBA98E ;
+}
+
+/* Set style inside ul li */
+ul li{
+    display:flex; 
+    margin-top:40px;
+    font-size: 25px;
+    color: #938571;
+    line-height: 58px;
+    padding: 100px;
+}
+
+ ul li:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+/* Set style for content inside class uw */
+div.uw{
+    font-size: 20px;
+     line-height: 53px;
+}
+
+/* Set height and width for content inside class uwcampus*/
+div.uwcampus{
+    height: 200px;
+    width: 400px;
+}
+
+p.color2{
+    
+    color: #494748;
+}
+
+

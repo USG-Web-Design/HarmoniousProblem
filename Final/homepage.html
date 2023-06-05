@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+	<title>My Portfolio Website</title>
+</head>
+<body>
+
+	<h1 class="animate-charcter"> Welcome to my Portfolio Website </h1>
+	<div class="mainpage">
+	 <div id="header"> 
+        <!-- Here is the start of navigation bar -->
+       <nav>
+  <ul>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="animalminipage.html">Fav Animal</a></li>
+    <li><a href="Environmental_Call_to_Action.html">Environmental Call to Action</a></li>
+    <li><a href="memory/memorylane.html">Collector Guide</a></li>
+    <li><a href="pnw/springguide.html">Guide to PNW</a></li>
+    <li><a href="buzzfeed2/buzzfeedQuiz.html">Buzzfeed</a></li>
+    <li><a href="graphtheory.html">Graph Theory</a></li>
+  </ul>
+</nav>
+       </div> 
+       </div>
+	<br><br><br><br><br> <!-- line break in text -->
+
+	<h2><strong>Welcome to my portfolio website</strong></h2> <!-- strong defines bold text, with strong importance -->
+	<div class="center">
+
+<time id="msg"></time>
+	<p>Throughout the second semester, we learned HTML, CSS and Jacascript.<br> In this website you"ll get to know what I've been
+	working on and how did I made these websites. </p>
+<br>--------------------------------------------------------------------------------------------------------------------------------------
+</div>
+<br>
+<br>
+<br>
+<div class="box1">
+    <span class="box-title">About Me</span>
+    <div class="flex">
+  <figure class="image"><img src="aboutme.png" alt=""></figure>
+    <p class="text"><br><br><br>In this website, we used basic techniques of HTML to make a simple website about myself.  The main thing I learned from this project is <span style="background-color: #ADD8E6;">how to change the font of color </span> and  <span style="background-color:#ADD8E6;">embedding a video.</span></p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="box1">
+    <span class="box-title">Fav Animal</span>
+    <div class="flex">
+  <figure class="image"><img src="fav.png" alt=""></figure>
+    <p class="text"><br><br><br>In this website, we used both HTML and CSS to create a website about my favorite animal. The new thing I learned from this project is <span style="background-color: #ADD8E6;">use of ordred lists and unordered list.</span> Also, I learned how to <span style="background-color:#ADD8E6;">change specific style in CSS.</span></p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="box1">
+    <span class="box-title">Environmental Call to Action</span>
+    <div class="flex">
+  <figure class="image"><img src="savepanda.png" alt=""></figure>
+    <p class="text"><br><br><br>In this website, we created a website that encourages viewers to respond to an environmental concern that you care about. The new thing I learned from this project is <span style="background-color: #ADD8E6;">dropdown and dropdown content.</span></p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="box1">
+    <span class="box-title">Collector Guide</span>
+    <div class="flex">
+  <figure class="image"><img src="memory.png" alt=""></figure>
+    <p class="text"><br><br><br>In this website, we created a website of collection. Me and Lyzane made a website about memories of our friend group. The new thing I learned from this project is how to <span style="background-color: #ADD8E6;">make a table</span> but I also searched for additional techniques that I can use in the website. For example, <span style="background-color:#ADD8E6;">the navigation bar, circle icon, </span> etc.  </p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="box1">
+    <span class="box-title">Guide to PNW</span>
+    <div class="flex">
+  <figure class="image"><img src="guide.png" alt=""></figure>
+    <p class="text"><br><br><br>In this webisite, we created a webpage that helps a newcomer to the Pacific Northwest learn about the fun things to see and do during the Spring season. I made a website of Seattle and the new techniques I learned from this project is <span style="background-color:#ADD8E6;">incorporate a animation and transition</span> to make the website more entertainig. </p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="box1">
+    <span class="box-title">Buzzfeed</span>
+    <div class="flex">
+  <figure class="image"><img src="quiz.png" alt=""></figure>
+    <p class="text"><br><br><br>In this website, we created a webpage that allows a user to interact with. Me and Winnie made a Quiz which we can know which ties you belong to. In this project I learned to <span style="background-color: #ADD8E6;">use Javascript to make a Quiz using values and calculates final results.</span></p>
+</div>
+</div>
+<h2>Wanna Learn About Graph History??</h2>
+<div class="center2">
+<!-- Here I embeded another webpage -->
+<embed src="graphtheory.html" type="text/html" width="1000" height="450"></embed>
+</div>
+<h2>How was my Website??</h2>
+
+    <br>
+    <br>
+    <div class="center3">
+  <form>
+   
+    <label for="userName"> Enter your name below </label>
+    <br>
+    
+    <input type="text" id="userName" name="userName" value="Enter...">
+    <br>
+    <!-- Radio button for selecting "Excellent" -->
+    <input type="radio" name="Check" id="Exe">
+    <label for="Exe">Excellent</label>
+    <br>
+    <!-- Radio button for selecting "Good" -->
+    <input type="radio" name="Check" id="Goo">
+    <label for="Goo">Good</label>
+    <br>
+    <!-- Radio button for selecting "Bad" -->
+    <input type="radio" name="Check" id="Ba">
+    <label for="Ba">Bad</label>
+    <br>
+    <!-- Button for submitting the form and calling the "hello" function -->
+    <input type="button" name="Submit" value="Enter" onclick="hello();">
+</form>
+
+    </div>
+
+    <p id="response"></p>
+</body>
+<script type="text/javascript">
+
+    // Define a function called hello
+    function hello() {
+
+        // Get the value of the input field with the id "userName" and store it in the variable name
+        var name = document.getElementById("userName").value;
+
+        // Initialize the response string
+        var response = "Hello!! Thank you for viewing ";
+        response = response + name;
+
+        // Initialize the Score string
+        var Score = "";
+
+        // Check if the checkbox with the id "Exe" is checked
+        if (document.getElementById("Exe").checked) {
+            // If it is checked, set the Score string accordingly
+            Score = "It's good to hear that I did excellent in this project hehe";
+        }
+        // Check if the checkbox with the id "Goo" is checked
+        if (document.getElementById("Goo").checked) {
+            // If it is checked, set the Score string accordingly
+            Score = "It's good to hear that my website is good. I will try harder!!";
+        }
+        // Check if the checkbox with the id "Ba" is checked
+        if (document.getElementById("Ba").checked) {
+            // If it is checked, set the Score string accordingly
+            Score = "It's good to hear your opinion. I will try harder...";
+        }
+
+        // Concatenate the name, a comma, a space, and the Score to the response string
+        response = response  + "," + "  " + Score;
+
+        // Update the HTML element with the id "response" to display the response string
+        document.getElementById("response").innerHTML = response;
+
+    }
+</script>
+
+<script>
+  // Define a constructor function called DateTimeFormatter
+  function DateTimeFormatter() {
+    // Define the options for formatting the date and time
+    this.options = {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric"
+    };
+
+    // Define a method called getCurrentDateTime to get the current date and time
+    this.getCurrentDateTime = function() {
+      // Get the current date and time
+      const currentDateTime = new Date();
+
+      // Format the date and time using the specified options
+      const formattedDateTimeParts = new Intl.DateTimeFormat("en-US", this.options).formatToParts(currentDateTime);
+
+      // Create an object to store the formatted date and time
+      const formattedDateTime = {};
+
+      // Store the formatted date and time parts in the object
+      formattedDateTimeParts.forEach(function(part) {
+        formattedDateTime[part.type] = part.value;
+      });
+
+      // Return the formatted date and time
+      return formattedDateTime;
+    };
+
+    // Define a method called displayCurrentDateTime to display the formatted current date and time
+    this.displayCurrentDateTime = function() {
+      // Get the formatted date and time
+      const formattedDateTime = this.getCurrentDateTime();
+
+      // Construct the output string with the formatted date and time parts
+      const output = formattedDateTime.weekday + ", " +
+                     formattedDateTime.month + " " +
+                     formattedDateTime.day + ", " +
+                     formattedDateTime.year + " - " +
+                     formattedDateTime.hour + ":" +
+                     formattedDateTime.minute + ":" +
+                     formattedDateTime.second;
+
+      // Update the HTML element with the id "msg" to display the output string
+      document.getElementById("msg").innerHTML = output;
+    };
+  }
+
+  // Create an instance of the DateTimeFormatter object
+  var formatter = new DateTimeFormatter();
+
+  // Call the displayCurrentDateTime method to format and display the current date and time
+  formatter.displayCurrentDateTime();
+</script>
+
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="graphtheory.css">
+	<title>Graph Theory</title>
+</head>
+<body>
+	<!--  it creates a link to "homepage.html" with the anchor text "Click here to go back". -->
+	<a href="homepage.html">Click here to go back</a>
+	<!-- main heading -->
+<h1>Graph Theory</h1>
+<div class="animation"></div>
+<h2>What is graph theory?</h2>
+<p style="color: #001858;">Graph theory is the study of relationships. Given a set of nodes and connections, which can abstract anything from city layouts to computer data, graph theory provides a helpful tool to quantify and simplify the many moving parts of dynamic systems.</p>
+</div>
+
+<h2>Type of Graphs</h2>
+<!-- This class "box1" is used to rest of the code for making the fancy box -->
+<div class="box1">
+	
+	<h3>Tree Graph</h3>
+	<p>In graph theory, a tree is an undirected graph in which any two vertices are connected by exactly one path, or equivalently a connected acyclic undirected graph.</p>
+	<img src="tree.png">
+	</div>
+</div>
+
+<br>
+<br>
+<br>
+<!-- this class later used for making the box -->
+<div class="box1">
+	<h3>Star Topology</h3>
+	<p>A star topology is a network configuration in which all nodes are connected to a central node called the "hub." The hub acts as a central point of communication, and all other nodes in the network are connected directly to the hub.</p>
+	<img src="star.png">
+	</div>
+<br>
+<br>
+<br>
+<div class="box1">
+	<h3>Ring Topology</h3>
+	<p>A ring topology is a network configuration in which the nodes are connected in a closed loop or ring formation. Each node in the network is connected to exactly two other nodes, forming a circular structure. In a ring graph, data travels in only one direction around the ring.</p>
+	<img src="ring.png">
+	</div>
+	<br>
+	<br> <!-- line break -->
+	<br>
+<div class="box1">
+	<h3>Bus Topology</h3>
+	<p>
+Bus topology is a network configuration in which all devices are connected to a single communication pathway called a "bus." In this topology, each device is directly connected to the bus, and data is transmitted along the bus to all devices connected to it.</p>
+	<img src="bus.png">
+	</div>
+<br>
+<br>
+<br>
+<div class="box1">
+	<h3>Fully Connected Topology</h3>
+	<p>In a fully connected topology,every node in the network is directly connected to every other node. It is a network configuration where there is a direct link or communication channel between every pair of nodes.</p>
+	<img src="fully.png">
+	</div>
+<br>
+<br>
+<br>
+<div class="box1">
+	<h3>Mesh Topology</h3>
+	<p>Mesh topology is a network configuration where devices are interconnected with multiple direct links, forming a network in which every node has a direct connection to every other node. In a mesh network, each device can communicate with any other device directly, without relying on intermediate nodes.</p>
+	<img src="mesh.png">
+	</div>
+
+<h2>Lets Try a small Quiz!!!!</h2>
+
+	<div>
+		<!-- the start of the form -->
+		<form>
+			<table>
+
+				<p> In how many directions does the bus topology transmits the data?</p>
+
+			<!-- table row -->
+
+        <!-- from here, Question1 -->
+			<tr>
+				<td class="bus" style="color:#001858;">
+			<br>
+			<input type="radio" name="Q1" id="on"> <!--  show a set of related options, only one of which can be selected -->
+			<label for="one">One</label> <!-- specify a label for an <input> element of a form -->
+			</td>
+
+				<td class="bus" style="color:#001858;">
+			<br>
+			<input type="radio" name="Q1" id="tw">
+			<label for="two">Two</label>
+			</td>
+
+				<td class="bus" style="color:#001858;">
+			<br>
+			<input type="radio" name="Q1" id="thr">
+			<label for="three">Three</label>
+			</td>
+
+			<td class="bus" style="color:#001858;">
+			<br>
+			<input type="radio" name="Q1" id="mul">
+			<label for="multiple">Multiple</label>
+			</td>
+
+			</tr>
+			</table>
+
+  <!-- from here, Question2 -->
+
+			<table>
+			<p>In a star network</p>
+
+			<tr>
+
+			<td class="star" style="color: #001858;">
+			<br>
+			<input type="radio" name="Q2" id="ans1">
+			<label for="ans1">Each device is connected to a switch or hub</label>
+			</td>
+
+
+			<td class="star" style="color: #001858;">
+			<br>
+			<input type="radio" name="Q2" id="ans3">
+			<label for="ans3">Each device connects to each other</label>
+			</td>
+
+			<td class="star" style="color: #001858; padding-top: 30px">
+			<br>
+			<input type="radio" name="Q2" id="ans4">
+			<label for="ans4">Each device is connected to a terminal</label>
+			</td>
+            </tr>
+
+
+			</table>
+
+                <!-- from here, Question3 -->
+			<table>
+			<p>Which network topology is the most common way of setting up a network?</p>
+
+			<tr>
+
+			<td class="common" style="color: #001858;">
+			<br>
+			<input type="radio" name="Q3" id="sta">
+			<label for="sta">Star</label>
+			</td>
+
+			<td class="common" style="color: #001858">
+			<br>
+			<input type="radio" name="Q3" id="rin">
+			<label for="rin">Ring</label>
+			</td>
+
+			<td class="common" style="color:  #001858;">
+			<br>
+			<input type="radio" name="Q3" id="bu">
+			<label for="bu">Bus</label>
+			</td>
+
+			</tr>
+
+
+			</table>
+
+                  <!-- from here, Question4 -->
+			<table>
+			<p>What is a disadvatange of Ring Topology？</p>
+
+			<tr>
+
+			<td class="disadv" style="color: #001858;">
+			<br>
+			<input type="radio" name="Q4" id="slow">
+			<label for="slow">Data being transferred through networks are slower</label>
+			</td>
+
+			<td class="disadv" style="color: #001858;">
+			<br>
+			<input type="radio" name="Q4" id="storm">
+			<label for="storm">The network has a higher chance of breaking in a storm</label>
+			</td>
+
+			<td class="disadv" style="color: #001858;">
+			<br>
+			<input type="radio" name="Q4" id="shut">
+			<label for="shut">The entire network will be impacted if one workstation shuts down.</label>
+			</td>
+
+			</tr>
+
+			</table>
+
+
+			<div class = "enter">
+
+			<br><br>
+
+			<input type="button" name="Submit" value="Enter" onclick="Quiz();">
+
+			</div>
+
+
+		</form>
+
+
+<div class="box2">
+    <!-- From here is hyperlink -->
+    <a href="https://sitn.hms.harvard.edu/flash/2021/graph-theory-101/">Graph Theory img</a> 
+    <br>
+ <a href="https://www.quora.com/What-are-real-world-problems-that-graph-theory-can-solve">Network img </a> 
+ <br>
+  <a href="https://en.wikipedia.org/wiki/Star_%28graph_theory%29" >Star graph </a> 
+  <br>
+ <a href=" https://stackoverflow.com/questions/32033835/proportions-tree-graph-in-r" >Tree graph</a> 
+ <br>
+
+ </div>
+
+	<div>
+		<!-- here is a blank string that had id "response"
+		which we will update later with java to display the
+		correct response -->
+		<p id="response"></p>
+
+	</div>
+</body>
+
+<script type="text/javascript">
+	function Quiz(){
+
+		/* sets the score equal to 0. The variable will be used to keep track of the user's score in the quiz. */
+		var score = 0;
+
+	
+	
+
+		/* here "response" is just a empty string that will
+		be linked to id "response" later which we will update */
+		var response = "";
+		
+
+		/* these are all part of Q1 and if it is checked,
+		it will add a certain amount */
+		if (document.getElementById("on").checked){
+			score = score + 1;
+		}
+
+		if (document.getElementById("tw").checked){
+			score = score + 0;
+		}
+		
+		if (document.getElementById("thr").checked){
+			score = score + 0;
+		}
+		if (document.getElementById("mul").checked){
+			score = score + 0;
+		}
+
+
+
+		/* these are all part of Q2 and if it is checked,
+		it will add a certain amount */
+	if (document.getElementById("ans1").checked){
+			score = score +1;
+		}
+		
+
+		if (document.getElementById("ans3").checked){
+			score = score + 0;
+		}
+		
+		if (document.getElementById("ans4").checked){
+			score = score + 0;
+		}
+		
+
+
+		/* these are all part of Q3 and if it is checked,
+		it will add a certain amount */
+		if (document.getElementById("sta").checked){
+			score = score +1;
+		}
+
+		if (document.getElementById("rin").checked){
+			score = score + 0;
+		}
+		
+		if (document.getElementById("bu").checked){
+			score = score + 0;
+		}
+
+		
+
+
+		/* these are all part of Q4 and if it is checked,
+		it will add a certain amount */
+		if (document.getElementById("shut").checked){
+			score = score +1;
+		}
+
+
+		if (document.getElementById("slow").checked){
+			score = score + 0;
+		}
+		
+		if (document.getElementById("storm").checked){
+			score = score + 0;
+		}
+
+	/* If total score is equal to 0, the following sentence will appear on the page. */
+
+	if (score == 0){
+	response = "You got 0/4 work harder bro";
+}
+		
+		/* If total score is equal to 1, the following sentence will appear on the page. Same for the rest of three value.  */
+if (score == 1){
+	response = "You got 1/4 Meh..";
+}
+
+if (score == 2){
+	response = "You got 2/4 You got this!";
+}
+
+if (score == 3){
+	response = "You got 3/4 Almost perfet score!";
+}
+
+if (score == 4){
+	response = "You got 4/4 PERFECT!!";
+}
+		/* this gets the <p> from above with the id response and updates it to say
+		whatever it needs to say from the previous if/else statements */
+		document.getElementById("response").innerHTML = response;
+
+	}
+
+	
+	
+</script>
+</html>

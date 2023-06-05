@@ -1,0 +1,43 @@
+
+/*This sets the style, font size, color of the whole webpage. */
+body{
+	font-family: Times New Romans;
+	color: darkgray;
+	background-color: #f0ece8;
+	font-size: 23px;
+}
+
+/*This sets the font-size and color of the content between p tag.*/
+p{
+	font-size: 23px;
+	color:#C4BDAC;
+
+}
+/*This sets the font size, font-weight and position of text inside the <div class="intro">*/
+.intro{
+	font-size:28px;
+	font-weight: 600;
+	text-align: center;
+}
+
+/*This sets the the color of text inside the <div class="Breed"> */
+.Breed{
+	color:#3A3B3C;
+
+/*This sets the the color of text inside the <div class="Food"> */	
+}
+.Food{
+color:#3A3B3C;
+
+}
+
+/*This sets the the color of text inside the <div class="Play"> */
+.Play{
+color:#3A3B3C;
+}
+
+/*This sets the the color and font sizse of text inside footer */
+footer{ 
+	font-size: 15px;
+	color: gray;
+}

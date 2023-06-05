@@ -1,0 +1,91 @@
+
+
+/* This sets the style, color, font, etc of the h1 */
+h1{
+text-align: center;
+color: #001858;
+font-family: Comic Sans;
+ font-family: "Lucida Console", Monaco, monospace;
+}
+
+
+/* This sets the style, color, font, etc of the h2 */
+h2{
+	color: #001858;
+	text-align: center;
+	 font-family: "Lucida Console", Monaco, monospace;
+}
+
+/* This sets the style, color, font, etc of the h3 */
+h3{
+	color: #001858;
+	 font-family: "Lucida Console", Monaco, monospace;
+}
+
+/* This sets the style, color, font, etc of the p tag */
+p{
+	color: #ff8ba7;
+	font-size: 21px;
+	 font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+
+
+/* This sets the background-color of the whole HTML */
+body{
+	background-color: #fef6e4;
+}
+
+/*This sets the animation for the pictures*/
+div.animation {
+  height: 400px;
+  width: 800px;
+  display: block; /* displayed as a block-level element and takes up the full width available.*/
+  margin: 45px;
+  padding: 45px;
+  margin-left: 270px; /*. This creates additional spacing on the left side.*/
+  background-image:url("internet3.jpeg"); /*This property sets the background image of the targeted div */
+  position: relative;
+  transition: background-image 4s; /* It takes 4 seconds to transition between different background images. */
+  animation-name: example2;
+  animation-timing-function: linear; /* progresses at a constant speed. */
+  animation-duration: 4s; /*sets the duration of the animation to 4 seconds.*/
+  animation-iteration-count: 4; /* repeat 4 times.*/
+  animation-delay: 2s; /* delay of 2 seconds before the animation starts.*/
+}
+
+
+div.animation:hover {
+  background-image: url("internet.jpg.webp"); /*changes the background image of the targeted div element to "internet.jpg.webp" when the mouse hovers over it.*/
+   
+}
+
+.box1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #bbded6;
+    border: dashed 2px #8ac6d1; /*This make the dashed line */
+    width: 900px;
+    margin: auto;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;
+    background: #FFF;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+    width: 550px;
+    /*the styles for a box container with a bold font, blue color, white background, and rounded border */
+}
+
+.box2 p {
+    margin: 0; 
+    padding: 0;
+    /* Reset margin and padding for paragraphs inside the box container */
+}

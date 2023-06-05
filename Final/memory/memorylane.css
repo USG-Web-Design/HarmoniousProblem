@@ -1,0 +1,215 @@
+div.mainpage p{
+    text-align: left; /*This property aligns the text within the paragraphs to the left.*/
+    font-size: 18px;
+}
+
+/*This property hides any content that exceeds the boundaries of the <nav> element*/
+div.mainpage nav{
+    overflow: hidden;
+}
+
+
+div.mainpage nav li{
+    list-style-type: none; /*This property removes the bullet or numbering style from the list items*/
+    float: left; /* floats the list items to the left*/
+ 
+    
+}
+
+/* Set style for class vancouver */
+div.vancouver{
+    color:#696969 ;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+/* the flex items within the container will be evenly spaced with equal space around them.*/
+div.steamclock{
+    justify-content:space-around;
+}
+
+/* Set height and width for the image inside the class called long */
+div.long img{
+    height: 200px;
+  width: 50%;
+}
+
+/*This set width, height and margin of the content inside class called vancouver */
+div.vancouver img {
+    border-radius: 8px; /* create round edge */
+  width: 40%;
+  height: 30%;
+margin-left: auto;
+  margin-right: auto;
+}
+
+/*Set font size and font family for the text inside class called vancouver */
+div.vancouver p{
+    font-size: 30px;
+    font-family: Papyrus;
+}
+
+.funnypictures {
+    text-align: center;
+}
+
+
+/* Set transition for the content in the nav bar */
+div.mainpage nav a{
+    font-size:16px;
+    display: block;
+    text-decoration: underline;
+    color:#f9f9f9;
+    margin: 14px 16px 0px;
+    transition:0.3s;
+}
+
+/* Set width and height for the image inside the class called baby */
+div.baby img {
+     width: 40%;
+  height: 30%;
+}
+
+/* this set the thickness of the underline */
+div.mainpage nav a:hover{
+    border-bottom:3px solid #f9f9f9;
+}
+
+
+#header{
+    width:100%;
+    overflow:hidden; /* This property hides any content that exceeds the boundaries of the element, preventing it from overflowing.*/
+    background:#BBBBBB;
+    padding: 6px 0px;
+    font-family:serif;
+}
+
+
+/*Set style for h1 in class header */
+#header h1{
+    float: left;
+    color: #ffffff;
+    margin-right: 50px;
+    
+}
+
+
+
+
+/* set style for image inside class mainpage this makes our pictures more unique and good placement arrangement of img*/
+div.mainpage img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+        margin :20px;
+     padding :30px;
+    
+}
+
+.main-visual {
+     width:300%;
+    height:900px;
+    background-image:url(four.jpeg); /*This set the background iamge on the main page */
+    background-repeat: no-repeat; /*ensures that the background image is not repeated and only appears once.*/
+}
+
+
+div.mainpage p {
+  background-image: url('wallpaper2.jpeg');
+}
+
+
+
+div.picnic {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+/* When you hover the picture it will appear black border line */
+div.picnic:hover {
+  border: 1px solid #777;
+}
+
+/* This set width and heigh of the image inside class picnic */
+div.picnic img {
+  width: 100%;
+  height: auto;
+  justify-content:space-around;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* This set style whithin class funnypictures */
+div.funnypictures{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+
+/* set width and height of the image inside class funnypictures */
+div.funnypictures img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.intro{
+    color: #BC8F8F;
+}
+
+.background{
+    color: #BC8F8F;
+}
+
+div.mainpage h2{
+    color: #696969;
+}
+
+
+/* set for table */
+div.vancouver table {
+    /* This causes the table to be horizontally centered within its container */
+     margin-left: auto;
+  margin-right: auto;
+    border: solid; /* specifies that the table should have a solid border */
+    width: 35%;
+}
+
+/* set the color for whole webpage */
+body{
+color: #BC8F8F;
+}
+
+/* This set the dashed line aroud table data */
+div.vancouver td {
+    border: dashed;
+}
+
+/* This set the dotted line around table heading  */
+div.vancouver th {
+    border: dotted;
+    height: 35px;
+}
+
+
+
+
+
+
